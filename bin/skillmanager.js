@@ -69,4 +69,16 @@ program
   .description('打开本地 SkillPick 精选页面')
   .action(require('../lib/browse'));
 
+program
+  .command('uninstall <name>')
+  .alias('remove')
+  .description('卸载已安装的 Skill')
+  .action(require('../lib/uninstall'));
+
+program
+  .command('list')
+  .alias('ls')
+  .description('列出所有已安装的 Skill')
+  .action(require('../lib/list'));
+
 program.parse();

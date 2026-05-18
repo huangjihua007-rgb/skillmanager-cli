@@ -1,6 +1,6 @@
 {
   "name": "skillpick",
-  "version": "0.3.18",
+  "version": "0.3.19",
   "description": "SkillPick — AI技能精选管家 CLI。一键安装 AI Skill，含 SkillPick 搜索优选 + SkillGuard 安全体检",
   "bin": {
     "skillpick": "bin/skillmanager.js",
