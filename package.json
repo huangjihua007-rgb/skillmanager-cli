@@ -1,0 +1,27 @@
+{
+  "name": "skillpick",
+  "version": "0.3.17",
+  "description": "SkillPick — AI技能精选管家 CLI。一键安装 AI Skill，含 SkillPick 搜索优选 + SkillGuard 安全体检",
+  "bin": {
+    "skillpick": "bin/skillmanager.js",
+    "skillmgr": "bin/skillmanager.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md"
+  ],
+  "keywords": [
+    "skill",
+    "ai",
+    "agent",
+    "cli",
+    "skillpick",
+    "skillguard"
+  ],
+  "author": "jayhuang007",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^14.0.3"
+  }
+}
